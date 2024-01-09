@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-image: url('resources/banner-img.png');
+    width: 1320px;
+    height: 600px;
+    color: #FFF;
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.discount{
+    text-align: center;
+    margin-top: 100px;
+}
+.off{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.off-para{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.all{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.welcome{
+    background-image: url('resources/welcome.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+    padding: 120px;
+    color: #FFF;
+}
+#midnight{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.place-time{
+    background:linear-gradient(#FFF3F3, #FFF) ;
+    height: 482px;
+    width: 1320px;
+    margin-top: 100px;
+    border-radius: 20px;
+    position: relative;
+}
+.place-enjoy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px
+}
+.color{
+    color: #F00;
+}
+.btn{
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    border: none;
+}
+.best-offer{
+    margin-top: 100px;
+    background-color: #FFF;
+    height: 482px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 15px;
+    padding: 0 30px;
+}
+.best-offer-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.coming{
+    /*margin-top: 100px;*/
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #070211;
+}
+.awesome-portfolio{
+    margin-top: 100px;
+}
+.new-best-offer{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.twenty-four{
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+}
+.holydays-div{
+    text-align: center;
+    width: 1320px;
+}
+.holydays-discount{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 800;
+}
+.holydays-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.jhinuk{
+    background-image: url('resources/jhinuk-girl.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+.discount-img{
+    position: absolute;
+    left: 50%;
+    top: 27%;
+}
+.functional{
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.img-part-1{
+    display: flex;
+}
+.img-part-2{
+    display: flex;
+}
+/* Subscribe Related Styles*/
+.subscribe{
+    height: 616px;
+    width: 1320px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
+    text-align: center;
+    padding: 150px;
+    border-radius: 20px;
+}
+.part-2{
+    text-align: center;
+    margin-top: 48px;
+}
+#email{
+    border-radius: 50px 0 0 50px;
+    border: none;
+    height: 72px;
+    width: 424px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.btn-max{
+    border-radius: 0 50px 50px 0;
+    background-color: #F00;
+    border: none;
+    height: 72px;
+    width: 224px;
+    color: white;
+    font-size: 24px;
+}
+footer{
+    height: 616px;
+    width: 1320px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.foot-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+.foot-2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 20px;
+}
+/*.para-1{
+    position: relative;
+}
+.align-item{
+    position: absolute;
+    top: 100px;
+}*/
+.para-2 a{
+    text-decoration: none;
+    color: white;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 1px solid hsl(0, 2%, 9%);
+    width: 100%;
+}
